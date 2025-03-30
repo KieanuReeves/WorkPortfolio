@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https//fonts.gstatic.com" crossorigin>
+    <link href="https//fonts.googleapis.com/css2?family=wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Kiean's Portfolio</title>
+    <link rel="stylesheet" href="/Css/PortStyle.CSS">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <a href="/">Kiean's Portfolio</a>
+        </div>
+        <ul class="right">
+            <li><a href="/Code/portfolio.HTML"><i class="fa-solid fa-house"></i><span>Home</span></a></li>
+            <li><a href="/Code/School.html"><i class="fa-solid fa-school"></i><span>Education</span></a></li>
+            <li><a href="/Code/Skill.html"><i class="fa-solid fa-code"></i><span>Skills</span></a></li>
+            <li><a href="/Code/Contact.html"><i class="fa-solid fa-address-book"></i><span>Contact</span></a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+
+
+        <section id="Contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p class="contact-description">
+                Have questions or want to work together? Feel free to reach out using the form below!
+            </p>
+        
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:kieanm.gonzales@gmail.com">kieanm.gonzales@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: +63 926 1652 864</p>
+                    <p><i class="fa-solid fa-map-marker-alt"></i> Location: Philippines</p>
+                </div>
+        
+                <form class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Your Name" required>
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+        
+                    <label for="message">Message</label>
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="skill" class="skill">
+            <h2>Skills</h2>
+            <div class="text">
+                    skilled in electronics and HTML/CSS, 
+                    demonstrating a strong foundation in both hardware 
+                    and software development. With expertise in circuit design, troubleshooting, 
+                    and web development, i can create functional 
+                    and visually appealing web interfaces while also working with electronic systems, 
+                    making them a versatile and well-rounded tech enthusiast.
+            </div>
+    
+            <div class="cells">
+              <div class="cell">
+                        <img src="/images/html.png" alt="html logo">
+                        <span>HTML</span>
+                  </div>
+    
+                <div class="cell">
+                        <img src="/images/css.png" alt="css logo">
+                        <span>CSS</span>
+                </div>
+    
+                <div class="cell">
+                        <img src="/images/soldering.jpg" alt="soldering logo">
+                        <span>Electronics</span>
+                </div>
+            </div>
+        </section>
+    
+    </main>
+
+
+</body>
+</html>
